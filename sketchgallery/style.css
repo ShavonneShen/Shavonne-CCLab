@@ -7,12 +7,12 @@ canvas {
 }
 #my-container{
   position: absolute;
-  top: 70%;            
+  top: 65%;            
   left: 50%;            
   transform: translate(-50%, -50%);    
 }
 html{
-  background-color:slategrey;
+  background-color:slategrey;激素
 }
 body{
   color: azure;
