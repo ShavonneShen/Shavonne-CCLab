@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="p5.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  a:link {
+  color:white;
+}
+
+a:visited {
+  color:white;
+}
+
+a:hover {
+  color:deeppink;
+}
+
+a:active {
+  color:purple;
+}
+</style>
+<body>
+  <h1>Tarot Eyes</h1>
+<h2>For more details, you can click <a href="https://editor.p5js.org/ShavonneShen/sketches/XBLTQKJmZ" targett="_blank">project link</a> here</h2>
+  <div id="my-container"></div>
+  <script src="sketch.js"></script>
+ 
+  <div class="intro1">
+    <h3>Concept</h3>
+    <p>Inspired by elements in the tarot cards, I coded two graphics: eye and moon.  </p>
+    <p>Eyes represent prophecy, while moon represents mysteries(but unfortunately, I did not code the waxing crescent successfully). </p>
+    <p>To add to the mysterious atmosphere, the background color changes everytime you click the botton, but will mainly in dark colors.</p>
+  </div> 
+  
+  <div class="intro2">
+    <h3>Design</h3>
+    <p>Eye: Ellipses and circles</p> 
+    <p>Moon: Two ellipses with different inlines and outlines give the basic shape of the full moon</p>
+    <p>Then I coded the rectangle to shade in order to create the shape of the waxing crescent. </p>
+    <p>*When making the single moon pattern, the function worked well but when I looped it, the rectangle covered the whole background. </p>
+    <p>I was confused and finally deleted the rectangle model. Therefore, my moon shapes are actually two sysmetry waxing crescents.</p>
+  </div>
+
+  <div class="click">
+   <button onclick="location.reload()"; style="font-family: cursive;background-color: lightsteelblue;">CLICK ME</button>
+  </div>
+  <p style="position: relative; top: -28em;left: 4em;font-style: italic">Find out the differences!</p>
+</body>
+</html>

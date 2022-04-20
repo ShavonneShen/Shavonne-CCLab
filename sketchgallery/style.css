@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#my-container{
+  position: absolute;
+  top: 70%;            
+  left: 50%;            
+  transform: translate(-50%, -50%);    
+}
+html{
+  background-color:slategrey;
+}
+body{
+  color: azure;
+}
+h1{
+  text-align: center;
+  text-shadow: 4px 4px 4px #99ccff;
+  position: relative;
+  top: auto;
+}
+h2{
+  text-align: center;
+  position: relative;
+  top: auto;
+}
+.intro1{
+  position: relative;
+  right: -0,1em;
+  width: 20em;
+  height: 20em;
+  padding: 3px;
+  border-radius: 21px;
+  border: dotted 1px;
+  border-style: dashed;
+  border-color: blanchedalmond;
+  }
+h3{
+    text-shadow: 4px 4px 4px #99ccff;
+    text-align: center;
+  }
+.intro2{
+  position: relative;
+  right: -59em;
+  top: -21em;
+  width: 18em;
+  height: 28em;
+  padding:15px;
+  border-radius: 21px;
+  border: dotted 1px;
+  border-style: dashed;
+  border-color: blanchedalmond;
+}
+.click{
+  position: relative;
+    top: -28em;
+    right: -5em;
+    text-align: center;
+    box-sizing: border-box;
+    width: 12%;
+}
+  
