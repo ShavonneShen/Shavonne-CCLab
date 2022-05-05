@@ -16,13 +16,11 @@ h1{
   top: auto;
 }
 .intro{
-  position: relative;
-  right: -0,1em;
-  width: 20em;
-  height: 20em;
+  position: absolute;
+  width: 73em;
+  height: 4em;
   padding: 3px;
-  border-radius: 21px;
-  border: dotted 1px;
-  border-style: dashed;
-  border-color: blanchedalmond;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
   }
