@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+h1{
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 4em;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-shadow: 4px 4px 4px silver;
+  position: relative;
+  top: auto;
+}
+.intro{
+  position: relative;
+  right: -0,1em;
+  width: 20em;
+  height: 20em;
+  padding: 3px;
+  border-radius: 21px;
+  border: dotted 1px;
+  border-style: dashed;
+  border-color: blanchedalmond;
+  }
