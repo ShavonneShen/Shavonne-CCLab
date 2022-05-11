@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#my-container{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+h1{
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 5em;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-shadow: 4px 4px 4px silver;
+  position: relative;
+  top: auto;
+  margin: 0%;
+  background-color: #344c53;
+}
+body{
+  background-color: #344c53;
+}
+.intro1{
+  position: relative;
+  left: 12%;
+  width: 16em;
+  font-family: "Audiowide", sans-serif;
+  color: #caefd3;
+  border-style: ridge;
+  border-left-color: #caefd3;
+  background-color: rgba(202,239,211,0.5);
+  }
+.intro2{
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  width: 16em;
+  font-family: "Audiowide", sans-serif;
+  color: #caefd3;
+  border-style: ridge;
+  border-left-color: #caefd3;
+  background-color: rgba(202,239,211,0.5);
+    }
+.intro3{
+  position: absolute;
+  top:15%;
+  left: 80%;
+  width: 16em;
+  font-family: "Audiowide", sans-serif;
+  color: #caefd3;
+  border-style: ridge;
+  border-left-color: #caefd3;
+  background-color: rgba(202,239,211,0.5);
+      }
+ .intro4{
+ position: fixed;
+ top:90%;
+ height: 5em;
+ width: 10em;
+ font-family: "Audiowide", sans-serif;
+ color: #caefd3;
+ border-left-color: #caefd3;
+ background-color: rgba(202,239,211,0.5);
+  }
